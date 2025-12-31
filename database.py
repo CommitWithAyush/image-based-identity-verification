@@ -4,9 +4,9 @@ from mysql.connector import Error
 # Database Configuration
 DB_CONFIG = {
     'host': 'localhost',
-    'database': 'student_management',
-    'user': 'root',
-    'password': 'Ayush021@#'  # Replace with your MySQL password
+    'database': '<Database name>',
+    'user': '<username>',
+    'password': '<Password>'  # Replace with your MySQL password
 }
 
 def get_db_connection():
